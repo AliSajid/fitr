@@ -18,13 +18,12 @@ undum.game.version = "0.1"
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-        "<h1>A Blank, bleak, room</h1>
-        <p>You wake up in a small, bleak room. The room is sparsely furnished.
-        The white, blank walls stare at you, emotionless.
-        </p>
-        
-       
-        <p class='transient'>Maybe you <a href= 'rooms'>should get up</a>.
+        "<h1>A Blank, bleak, room</h1>\
+        <p>You wake up in a small, bleak room. The room is sparsely furnished.\
+        The white, blank walls stare at you, emotionless.\
+        </p>\
+        \
+        <p class='transient'>Maybe you <a href= 'rooms'>should get up</a>."
     ),
     // For variety, here we define a situation using the top-level
     // Situation type. This is a neat approach to generate text by
