@@ -35,7 +35,15 @@ undum.game.situations = {
     	message</a> or <a href= 'endgame'> or not....</a>"
     	),
     	
-    	
+     room2: new undum.SimpleSituation(
+    	"<h1>Your room</h1>\
+    	<p>You get up. You feel as unemotional and robotic as the walls that \
+    	surround you. There is a message blinking on the terminal.</p>\
+    	\
+    	<p class='transient'> You can either <a href= 'checkmessage'> check that \
+    	message</a> or <a href= 'endgame'> or not....</a>"
+    	),
+   	
     checkmessage: new undum.SimpleSituation(
     	"<h1>Your room</h1>\
     	<p>You check the message. It is a message from the medical unit. You are \
